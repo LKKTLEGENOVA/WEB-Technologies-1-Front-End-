@@ -1,0 +1,117 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#title{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 806px;
+}
+#title-img {
+  padding-top: 5 px;
+}
+#titlebtn1{
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+#titlebtn2{
+  border-color: white;
+  color: white;
+}
+
+#featueres{
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testimonialavatar {
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+#testimonialblock {
+  background-color: white !important;
+}
+
+.testimonial_png_block {
+  display: flex;
+  justify-content: space-around;
+}
+#pricingblock {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+#cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#pricing_card {
+  width: 400px;
+}
+
+#pricing_card_3 {
+  width: 400px;
+  border-color: #21242a !important;
+}
+
+#pricingbutton {
+  background-color: #21242a;
+  border-color: #21242a;
+}
+
+#pricingbutton1 {
+  border-color: #21242a !important;
+  color:#21242a;
+  
+}
+
+#pricingbutton1:hover {
+  background-color: #21242a;
+  color: white;
+}
+
+
+.text-bg-primary {
+  background-color: #21242a !important;
+}
+
+.border-primary {
+  border-color: #21242a !important;
+}
+
